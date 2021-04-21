@@ -1,0 +1,206 @@
+<!--  
+    Offerta Telefonica 
+    Vodafone 10 50gb 1000 min 1000 sms
+    TIM      10  30 gb minuti ill mess ill
+    Wind     10  40gb  2000 minuti 2000 sms
+ -->
+
+ <!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Offeta Telefonica</title>
+    <script type="text/javascript" src=""></script>
+</head>
+<style>
+   .divTable
+    {
+        display: table;
+        background-color:rgb(255, 255, 255);
+        border:3px solid color rgb(131,50,50);
+        border-spacing: 4px;
+
+    }
+    .divColonna
+    {
+       display:table;   
+    }
+    .divCelle
+    {
+        float:left;
+        display:table;
+        width:200px;
+        height:40px;
+        background-color:rgb(131, 50, 50);
+        text-align: left;
+        
+    }
+
+    label{ 
+        color: white;
+        text-align: left;
+        margin: 5px;
+        font-family: courier;
+        font-size: 15px;
+    }
+    h1{ 
+        color:white;
+        text-align: center;
+        background-color: rgba(40, 41, 52,25);
+    }
+    p{ 
+        color:white;
+        text-align: center;
+        background-color: rgba(40, 41, 52,25);
+    }
+    .testo{
+        border: 2px solid white;
+        margin: 1px;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+body{
+  font-family: 'Raleway', sans-serif;
+  background-color:rgba(40, 41, 52,25)
+}
+
+footer {
+	background-color: #222222;
+    padding: 20px 0px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer ul{
+    list-style: none;
+    margin: auto;
+    display: inline-block;
+    padding-top: 50px;
+}
+
+footer ul li {
+    float: left;
+}
+
+footer ul li a{
+	color: #b1aca1;
+    padding: 20px;
+}
+
+
+
+.copyright p {
+    border: 3px solid color rgba(40, 41, 52,25);
+    background-color: #f0f0f0;
+	font-size: 12px;
+    color:  #2222229c;
+	padding: 10px 0 10px 0;
+}
+
+
+</style>
+<body>
+    <h1 class="testo">Offerta Telefonica</h1>
+    <p>Con Vodafone hai 50 giga al mese 1000 minuti e 1000 sms verso tutti a soli
+       10 euro al mese.
+    </p>
+</br>
+
+<form>
+    <center>
+    <div class="divTable">
+           <div class="divColonna">
+              <div  class="divCelle"> <label for="fname">Nome:</label> </div> <!-- TextBox -->
+              <div  class="divCelle"> <input type="text" id="fname" name="fname" style="width:169px;"> </div>
+           </div>
+          <div class="divColonna">
+                <div class="divCelle">  <label for="lname">Cognome:</label> </div> <!-- TextBox -->
+              <div class="divCelle"> <input type="text" id="lname" name="lname" style="width:169px;"> </div>
+             
+          </div>
+          <div class="divColonna">
+              <div class="divCelle"><label for="data">Data Di Nascita:</label></div> <!-- Data Selection -->
+              <div class="divCelle"> <input type="date" id="data" name="data" style="width:169px;"></div>
+             
+         </div>
+          <div class="divColonna">
+              <div class="divCelle"><label for="residenza">Residenza:</label></div> <!-- Selection box -->
+              <div class="divCelle"><select name="residenza" id="residenza" style="width:175px;">
+                                    <option value=""></option>
+                                    <option value="Como">Como</option>
+                                    <option value="Milano">Milano</option>
+                                    <option value="Brescia">Brescia</option>
+                                    <option value="Lecco">Lecco</option>
+                                    </select>
+            </div>
+         </div>
+         <div class="divColonna">
+            <div class="divCelle"><label for="sesso">Sesso:</label></div> <!-- Selection box -->
+            <div class="divCelle"><select name="sesso" id="sesso" style="width:175px;">
+                                  <option value=""></option>
+                                  <option value="uomo">Uomo</option>
+                                  <option value="donna">Donna</option>
+                                  <option value="altro">Altro</option>
+                                  </select>
+
+            </div>
+        </div>
+        <div class="divColonna">
+            <div class="divCelle"><label for="occhi">Colore Occhi:</label></div> <!-- Selection box -->
+            <div class="divCelle"><select name="occhi" id="occhi" style="width:175px;">
+                                  <option value=""></option>
+                                  <option value="marroni">Marroni</option>
+                                  <option value="verdi">Verdi</option>
+                                  <option value="azzurri">Azzurri</option>
+                                  </select>
+
+            </div>
+        </div>
+
+    </div>
+</center>
+</form>
+</body>
+
+<footer>
+    <footer>
+        <center> 
+        <div class="container" style="border-top:1px solid grey;">
+            <div class="row text-center">   
+                <div class="col-lg-6 col-lg-offset-3">
+                      <ul class="menu">                        
+                             <li>
+                                <a href="#">Github</a>
+                              </li>
+                                   
+                              <li>
+                                 <a href="#">Index</a>
+                              </li>
+                                   
+                              <li>
+                                <a href="https://agora.ismonnet.it/agora/">Agorà</a>
+                              </li>
+                                   
+                              <li>
+                                 <a href="https://agora.ismonnet.it/agora/mod/assign/view.php?id=40212">Consegna</a>
+                              </li> 
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </center>  
+    <div class="copyright">
+        <div class="container">
+          <div class="row text-center">
+              <center>
+              <p>Copyright © 2017 All rights reserved </br> Christian Pianarosa 4CINF </p>
+              </center>
+          </div>
+         </div>
+     </div>
+</footer>
+    
+    
+
+</html>
