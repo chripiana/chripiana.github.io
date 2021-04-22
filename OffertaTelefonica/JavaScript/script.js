@@ -1,8 +1,8 @@
 function inizializzaSelection()
 {
     //inserimento opzioni sesso
-    var sesso=["Maschio","Femmina"];
-    for(var i=0;i<2;i++)
+    var sesso=["--- Sesso --- ","Maschio","Femmina"];
+    for(var i=0;i<3;i++)
     {
         var s=document.createElement("option");
         s.value=sesso[i];
@@ -10,7 +10,7 @@ function inizializzaSelection()
         document.getElementById("sesso").appendChild(s);
     }
     //inserimento opzioni occhi
-    var occhi=["Nero","Castano","Verde","Blu","Ambra"];
+    var occhi=["--- Occhi --- ","Nero","Marroni","Verde","Azzurro"];
     for(var i=0;i<5;i++)
     {
         var o=document.createElement("option");
@@ -19,8 +19,8 @@ function inizializzaSelection()
         document.getElementById("occhi").appendChild(o);
     }
     //inserimento opzioni provincia
-    var residenza=["BG","BS","CO","CR","LC","LO","MN","MI","MB","PV","SO","VA"];
-    for(var i=0;i<12;i++)
+    var residenza=["--- Provincia --- ","BG","BS","CO","CR","LC","LO","MN","MI","MB","PV","SO","VA"];
+    for(var i=0;i<13;i++)
     {
         var p=document.createElement("option");
         p.value=residenza[i];
