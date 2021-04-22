@@ -13,7 +13,7 @@
     <script src="https://chripiana.github.io/OffertaTelefonica/JavaScript/script.js"></script>
 </head>
 
-<body>
+<body onload="inizializzaSelection()">
     <h1 class="testo">Offerta Telefonica</h1>
     <p>Con Vodafone hai 50 giga al mese 1000 minuti e 1000 sms verso tutti a soli
        10 euro al mese.
@@ -38,34 +38,21 @@
              
          </div>
           <div class="divColonna">
-              <div class="divCelle"><label for="residenza">Residenza:</label></div> <!-- Selection box -->
-              <div class="divCelle"><select name="residenza" id="residenza" style="width:175px;">
-                                    <option value=""></option>
-                                    <option value="Como">Como</option>
-                                    <option value="Milano">Milano</option>
-                                    <option value="Brescia">Brescia</option>
-                                    <option value="Lecco">Lecco</option>
+              <div class="divCelle"><label>Residenza:</label></div> <!-- Selection box -->
+              <div class="divCelle"><select id="residenza" style="width:175px;">
                                     </select>
             </div>
          </div>
          <div class="divColonna">
-            <div class="divCelle"><label for="sesso">Sesso:</label></div> <!-- Selection box -->
-            <div class="divCelle"><select name="sesso" id="sesso" style="width:175px;">
-                                  <option value=""></option>
-                                  <option value="uomo">Uomo</option>
-                                  <option value="donna">Donna</option>
-                                  <option value="altro">Altro</option>
+            <div class="divCelle"><label>Sesso:</label></div> <!-- Selection box -->
+            <div class="divCelle"><select id="sesso" style="width:175px;">
                                   </select>
 
             </div>
         </div>
         <div class="divColonna">
-            <div class="divCelle"><label for="occhi">Colore Occhi:</label></div> <!-- Selection box -->
-            <div class="divCelle"><select name="occhi" id="occhi" style="width:175px;">
-                                  <option value=""></option>
-                                  <option value="marroni">Marroni</option>
-                                  <option value="verdi">Verdi</option>
-                                  <option value="azzurri">Azzurri</option>
+            <div class="divCelle"><label>Colore Occhi:</label></div> <!-- Selection box -->
+            <div class="divCelle"><select id="occhi" style="width:175px;">
                                   </select>
 
             </div>
