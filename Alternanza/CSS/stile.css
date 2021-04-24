@@ -1,0 +1,212 @@
+    footer 
+	{
+		background-color: #222222;
+		padding: 15px 0px;
+        position:fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+	}
+	footer ul
+	{
+		list-style: none;
+		margin: auto;
+		display: inline-block;
+		padding-top: 20px;
+	}
+	footer ul li 
+	{
+		float: left;
+	}
+	footer ul li a
+	{
+		color: #b1aca1;
+		padding: 20px;
+	}	
+.bottone {
+  background-color: rgb(241,241,241); 
+  color: #D2691E;    
+  cursor: pointer;  /* Cambio del cursore al passaggio */
+  padding: 18px;
+  width: 75%;
+  border:ridge;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  border-width: 4px;
+  border-color: rgb(241,241,241);
+}
+.contenuto {
+    margin-top: 2%;
+    margin-left: 40%;
+    width: 45%;
+}
+.contenuto2 {
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 30%;
+}
+p{
+    width: 90%;
+    text-align: justify;
+}
+
+.bordi{
+    border-style: ridge; 
+    border-color: rgba(223, 209, 209, 0.39); 
+    border-width: 5px;
+    padding: 20px;  
+}
+.titolo{
+    size: 20px;
+    margin-bottom: 15px;
+}
+.bottone:after {
+  content: '\002B'; /* Simbolo '+' */
+  color: #CD853F;  /* Colore simbolo '+' */
+  font-weight: bold;  /* Simbolo in Grassetto */
+  float: right;      /* Allineamento Simbolo */
+}
+
+.bottone2:after {
+  content: '\002B'; /* Simbolo '+' */
+  color: #CD853F;  /* Colore simbolo '+' */
+  font-weight: bold;  /* Simbolo in Grassetto */
+  float: right;      /* Allineamento Simbolo */
+}
+.active:after { /* dopo essere stato attivato */
+  content: "\2212";
+}
+.comparsa {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out;
+  background-color: #f1f1f1;
+  width: 80%;
+  font-size: 19px;
+}
+hr {
+
+    background-color: #CD853F;
+    border-top: 2px solid #CD853F;
+    border-bottom: 2px solid #CD853F;
+    margin-top: 25px;
+    
+
+}
+.sottotitolo{
+    font-family: inherit;
+    color: #D2691E;
+    font-size: 40px;
+   
+    font-weight: 600;
+    padding-bottom: 0px;
+    margin-top: 9px;
+    margin-bottom: 0px;
+}
+body{
+    background-color: rgb(241,241,241);
+}
+header{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: inherit;
+    
+}
+#titolo{
+    font-family: inherit;
+    color: #D2691E;
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 0px;
+    padding-top: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+#fotohead1{
+    width:100px;
+    height:100px;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+#fotohead2{
+    width:100px;
+    height:100px;
+    padding-top: 5px;
+    padding-right: 30px;
+}
+
+.divtitolo{
+margin: 0 auto; /* ipotizzando che sia centrato all'interno della pagina */
+padding: 0;
+position: relative;
+width: 100%;
+height: 100px;
+}
+
+h1{
+    color: rgba(0, 0, 0, 0.726);
+    font-size: 25px;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;  
+}
+
+.bottone2 {
+  background-color: rgb(241,241,241); 
+  color: #D2691E;    
+  cursor: pointer;  /* Cambio del cursore al passaggio */
+  padding: 18px;
+  width: 55%;
+  border:ridge;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  border-width: 4px;
+  border-color: rgb(241,241,241);
+  position: relative;
+}
+.assoluto{
+    position: absolute;
+}
+.legemda{
+    margin-top:20%;
+}
+
+a:link {
+  color: #D2691E;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+a:visited {
+  color: #D2691E;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D2691E;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+a:active {
+  color: #D2691E;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.leg{
+    border:ridge;
+    padding: 10px;
+    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align:left;
+}
