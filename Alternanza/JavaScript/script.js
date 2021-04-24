@@ -1,4 +1,5 @@
-
+function inizializzaSelection()
+{
     var btn = document.getElementsByClassName("bottone");
     var i;
     
@@ -44,3 +45,4 @@
                 } 
             });
     }
+}
