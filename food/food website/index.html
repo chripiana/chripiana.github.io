@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Food Website Design Tutorial</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts      -->
+
+<header>
+
+    <a href="#" class="logo"><i class="fas fa-utensils"></i>eventFoods</a>
+
+    <nav class="navbar">
+        <a class="active" href="#home">Home</a>
+        <a href="#piatti">Piatti</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#recensione">Recensione</a>
+        <a href="#ordina">Ordina</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+
+</header>
+
+<!-- header section ends-->
+
+<!-- search form  -->
+
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="swiper-container home-slider">
+
+        <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>i nostri piani speciali</span>
+                    <h3>Spaghetti</h3>
+                    <p>Spaghetti al pomodoro con aggiunta di formaggio nostrano</p>
+                    <a href="#" class="btn">ordina ora</a>
+                </div>
+                <div class="image">
+                    <img src="images/home-img-1.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>i nostri piani speciali</span>
+                    <h3>pollo</h3>
+                    <p>Pollo al forno con rosmarino e verdure di stagione</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="images/home-img-2.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>i nostri piani speciali</span>
+                    <h3>pizza</h3>
+                    <p>Pizza cotta in forno a legna</p>
+                    <a href="#" class="btn">order now</a>
+                </div>
+                <div class="image">
+                    <img src="images/home-img-3.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- dishes section starts  -->
+
+<section class="dishes" id="piatti">
+
+    <h3 class="sub-heading"> i nostri piatti </h3>
+    <h1 class="heading"> piatti popolari </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-1.png" alt="">
+            <h3>Hamburger</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>10.99€</span>
+            <a href="#" class="btn">aggiungi al carrello</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-2.png" alt="">
+            <h3>Crocchette Di Pollo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>8.99€</span>
+            <a href="#" class="btn">aggiungi al carrello</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-3.png" alt="">
+            <h3>Pollo Arrosto</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>15.99€</span>
+            <a href="#" class="btn">aggiungi al carrello</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-4.png" alt="">
+            <h3>Pizza Margherita</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>7.99€</span>
+            <a href="#" class="btn">aggiungi al carrello</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-5.png" alt="">
+            <h3>Biscotti Con Gelato</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>5.99€</span>
+            <a href="#" class="btn">aggiungi al carrello</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-6.png" alt="">
+            <h3>Pollo Fritto</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>12.99€</span>
+            <a href="#" class="btn">aggiungi al carrello</a>
+        </div>
+
+    </div>
+
+</section>
+
+<
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h3 class="sub-heading"> about us </h3>
+    <h1 class="heading"> perche sceglierci? </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/about-img.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3>il nostro cibo è il migliore</h3>
+            <p>A tavola ci si incontra, si chiacchiera, ci si rilassa, si ride… talvolta ci si punzecchia, ma il buon cibo fa da paciere. E’ capace di restituire il buonumore persino al termine di una giornata faticosa.</p>
+            <p>e mi raccomando conserva e tratta il cibo come se fosse il tuo corpo, ricordando che nel tempo il cibo sarà il tuo corpo.</p>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-shipping-fast"></i>
+                    <span>spedizione gratis</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>facile pagare</span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-headset"></i>
+                    <span>servizio 24/7</span>
+                </div>
+            </div>
+            <a href="#" class="btn">scopri di più</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- menu section starts  -->
+
+<section class="menu" id="menu">
+
+    <h3 class="sub-heading"> il nostro menu </h3>
+    <h1 class="heading"> specialità giornaliera </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-1.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Diavola</h3>
+                <p>pizza cotta in forno a legno con aggiunta di salame piccante calabrese e nduja</p>
+                <a href="#" class="btn">aggiungi</a>
+                <span class="price">13.99€</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-2.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Super Hamburger</h3>
+                <p>Panino Hamburger con aggiunta di salse pomodori cipolle insalata e cetrioli</p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">11.99€</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-3.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Crepes</h3>
+                <p>Crepes alla nutella con zucchero a velo mirtilli e un tocco di menta peperina</p>
+                <a href="#" class="btn">aggiungi</a>
+                <span class="price">4.99€</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-4.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Waffles</h3>
+                <p>Waffles con nutella scaglie di nocciola meringhe e gelato alla panna e cioccolato </p>
+                <a href="#" class="btn">aggiungi</a>
+                <span class="price">5.99€</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-5.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Torta alla frutta</h3>
+                <p>Torta fatta artigianalmente al cioccolato con glassa e caramello con aggiunta di frutta di stagione</p>
+                <a href="#" class="btn">aggiungi</a>
+                <span class="price">22.99€</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-8.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Macedonia</h3>
+                <p>Macedonia di banane fragole mele more lamponi e aggiunta di panna montata e cereali </p>
+                <a href="#" class="btn">aggiungi</a>
+                <span class="price">17.99€</span>
+            </div>
+        </div>
+
+        
+    </div>
+
+</section>
+
+<!-- menu section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="recensione">
+
+    <h3 class="sub-heading"> Recensioni </h3>
+    <h1 class="heading"> cosa dicono </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/pic-1.png" alt="">
+                    <div class="user-info">
+                        <h3>Antonio</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Se cenate al EventFoods sicuramente non rimarrete delusi, nel senso che il cibo e' buono, il locale è confortevole e pulito, il personale gentile ed il prezzo è commisurato al servizio offerto. Non vi aspettate grandi cose ma se vi piacciono sapori buoni ma semplici il EventFoods fa per voi.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/pic-2.png" alt="">
+                    <div class="user-info">
+                        <h3>Lucrezia</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Siamo stati a cena con amici il 21 febbraio, siamo stati benissimo. Antipasto di mare freddo super impiattato alla "master chef", con una tartare di tonno divina.
+                    Primo con le pannocchie davvero ottimo e a seguire arrosto e frittura. Insomma tutto perfetto.
+                    Personale cordiale e disponibile!
+                    Ottimo rapporto qualità prezzo.  
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/pic-3.png" alt="">
+                    <div class="user-info">
+                        <h3>Andrea</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Locale molto carino situato in un ottima zona.
+                    Personale molto accogliente e con il sorriso stampato in faccia,antipasti buonissimi.
+                    Non c'è niente da dire sulla pizza soprattutta quella margherita.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/pic-4.png" alt="">
+                    <div class="user-info">
+                        <h3>Sara</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Sono stata in questo locale di recente con la mia famiglia. Tutto molto ottimo, pizza buonissima e personale disponibile e gentilissimo. Prezzi modici nella norma.
+            Da ritornarci a breve.</p>
+            </div>
+
+        </div>
+
+    </div>
+    
+</section>
+
+<!-- review section ends -->
+
+<!-- order section starts  -->
+
+<section class="order" id="ordina">
+
+    <h3 class="sub-heading"> Ordina </h3>
+    <h1 class="heading"> Gratis e Veloce </h1>
+
+    <form action="">
+
+        <div class="inputBox">
+            <div class="input">
+                <span>nome</span>
+                <input type="text" placeholder="nome">
+            </div>
+            <div class="input">
+                <span>numero di telefono</span>
+                <input type="number" placeholder="numero di telefono">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>ordine</span>
+                <input type="text" placeholder="ordine">
+            </div>
+            <div class="input">
+                <span>cibo extra</span>
+                <input type="test" placeholder="cibo extra">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>mancia</span>
+                <input type="number" placeholder="mancia">
+            </div>
+            <div class="input">
+                <span>data e ora</span>
+                <input type="datetime-local">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>indirizzo</span>
+                <textarea name="" placeholder="indirizzo" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="input">
+                <span>messaggio</span>
+                <textarea name="" placeholder="messaggio" id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+
+        <input type="submit" value="ordina ora" class="btn">
+
+    </form>
+
+</section>
+
+<!-- order section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+     
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">piatti</a>
+            <a href="#">about</a>
+            <a href="#">menu</a>
+            <a href="#">recensione</a>
+            <a href="#">ordina</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#">+123-456-7890</a>
+            <a href="#">+111-222-3333</a>
+            <a href="#">pianarosachristian@gmail.com</a>
+            <a href="#">eventFoods@gmail.com</a>
+
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+        </div>
+
+    </div>
+
+    <div class="credit"> copyright @ 2021 by <span>christian pianarosa</span> </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- loader part  -->
+<div class="loader-container">
+    <img src="images/loader.gif" alt="">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
